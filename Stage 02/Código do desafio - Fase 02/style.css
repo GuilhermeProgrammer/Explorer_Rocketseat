@@ -1,0 +1,70 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+#main {
+  margin: 64px auto ;
+  width: 626px;
+}
+
+h1 {
+  font-family: 'Dosis';
+  font-size: 32px;
+  font-weight: 500;
+}
+
+h1 > span {
+  color: #EE24FF;
+font-weight: 700;
+}
+
+p {
+  color: #828282;
+  font-weight: 500;
+
+}
+
+p + p {
+  margin-top: 32px;
+}
+
+ p > strong {
+  color: #3F3D56;
+  font-weight: 700;
+
+}
+
+.empresa{
+  color: #828282;
+}
+
+.line {
+  height: 0px;
+  width: 391px;
+  border: 1px solid #ECEFF2;
+  margin: 0 auto 16px;
+}
+
+a {
+  color: #3F3D56;
+  text-decoration: none;
+}
+
+a + a {
+  margin-left: 42px;
+}
+
+#footer {
+  margin-bottom: 40px;
+}
+
+#waves{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: url('./images/Wave.png') no-repeat center center;
+  background-size: cover;
+}
